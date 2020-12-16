@@ -8,4 +8,5 @@ end
 
 def update_counting_hash(hash, k)
   hash[k] ? hash[k] += 1 : hash[k] = 1
+  hash
 end
